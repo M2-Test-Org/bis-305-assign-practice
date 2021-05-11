@@ -6,10 +6,7 @@ namespace bis_305_assign_practice
     {
         public static void Main()
         {
-            WriteLine("Roses are red,");
-            WriteLine("Violets are blue,");
-            WriteLine("BIS 305 is awesome,");
-            WriteLine("And so are you!");
+            // Write your main here.
         }
     }
 }
