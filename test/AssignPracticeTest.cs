@@ -22,9 +22,9 @@ namespace bis_305_assign_practice
 
             //The array will be 5 lines in the split array as a WriteLine on the fourth line will 
             //create an empty 5 line 
-            Assert.True(arrayFromMainMethod.Length == 5, "There should be no more than 4 lines of lyrics.");
+            Assert.True(arrayFromMainMethod.Length == 5, "There should be 4 lines of lyrics.");
             //Make sure the 5th line is empty
-            Assert.True(arrayFromMainMethod[4].Length == 0, "There should be no more than 4 lines of lyrics.");
+            Assert.True(arrayFromMainMethod[4].Length == 0, "There should be 4 lines of lyrics.");
 
             // subtract the Length of the array by 1 to omit the empty 5th line
             for (int i = 0; i < arrayFromMainMethod.Length - 1; i++)
